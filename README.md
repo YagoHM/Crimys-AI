@@ -5,19 +5,19 @@
 
 ---
 
-## O que e
+## O que é
 
 Crimys e um assistente de IA construido sobre um fork do [OpenCode](https://github.com/anomalyco/opencode),
 adaptado para ser um sistema autonomo de controle de computador e base de conhecimento centralizada.
 
-O projeto tem trÊes funções que operam em conjunto:
+O projeto tem três funções que operam em conjunto:
 
 **Side assistant de Terminal IA no Visual Code**
 Quando o Claude Code ou qualquer outra IA precisa de documentacao ou precisa resolver um erro,
 ela consulta o Crimys via MCP. O Crimys ja tem tudo indexado localmente e responde sem gastar
 tokens buscando na internet. As IAs param de procurar e comecam a perguntar.
 
-**Controlador autonomo do computador**
+**Controlador autônomo do computador**
 Acesso total ao Windows. Executa macros, abre programas, gerencia processos, monitora o sistema
 em background e corrige erros acumulados quando solicitado. Modo full-auto para correcoes.
 

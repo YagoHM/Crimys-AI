@@ -1,7 +1,6 @@
 # CRIMYS
 
 > Assistente de IA local, autonomo e evolutivo.
-> Roda na sua maquina. Aprende com o uso. Controla tudo.
 
 ---
 

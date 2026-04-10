@@ -1,0 +1,6 @@
+﻿mcp
+psutil
+pyautogui
+chromadb
+mem0ai
+watchdog

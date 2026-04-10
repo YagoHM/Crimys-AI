@@ -1,0 +1,35 @@
+﻿{
+  "model": "ollama/qwen2.5-coder:7b",
+  "agents": {
+    "computer": {
+      "model": "ollama/qwen2.5-coder:7b",
+      "system": "C:/Users/yagohmz/Desktop/The Vault/Crimys/core/system_prompt.md"
+    },
+    "coder": {
+      "model": "ollama/qwen2.5-coder:7b",
+      "system": "C:/Users/yagohmz/Desktop/The Vault/Crimys/core/system_prompt.md"
+    }
+  },
+  "mcp": {
+    "crimys-pc": {
+      "type": "local",
+      "command": "python",
+      "args": ["C:/Users/yagohmz/Desktop/The Vault/Crimys/mcp/pc_server.py"]
+    },
+    "crimys-monitor": {
+      "type": "local",
+      "command": "python",
+      "args": ["C:/Users/yagohmz/Desktop/The Vault/Crimys/mcp/monitor_server.py"]
+    },
+    "crimys-vault": {
+      "type": "local",
+      "command": "python",
+      "args": ["C:/Users/yagohmz/Desktop/The Vault/Crimys/mcp/vault_server.py"]
+    }
+  },
+  "provider": {
+    "ollama": {
+      "url": "http://localhost:11434"
+    }
+  }
+}

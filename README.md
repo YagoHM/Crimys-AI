@@ -146,7 +146,7 @@ modificar o registro do Windows e instalar software.
 
 ## Nome
 
-**Crimys** = Crimson (vermelho profundo) + Nemys (time de Valorant do criador).
+**Crimys**
 Cores do projeto: `#DC2626` vermelho e `#7C3AED` roxo.
 
 ---
